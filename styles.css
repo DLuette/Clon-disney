@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@600&family=Raleway:wght@500&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    min-height: 100vh;
+}
+
+header{
+    background-color: white;
+    padding: 5px;
+    height: 85px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.barra{
+    list-style: none;
+}
+
+.barra li{
+    display: inline-block;
+    padding: 0 15px;
+}
+
+
+nav a{
+    text-decoration: none;
+    color: black;
+    font-weight:  bold;
+    font-family: 'Gabarito', sans-serif;
+    font-size: 15px;
+}
+
+.logo-img{
+    width: 100px;
+    height: 40px;
+    cursor: pointer;
+    transition: all 0.3s;
+    margin-right: 30px;
+    margin-left: 10px;
+}
+
+.logo-img:hover{
+    transform: scale(1.2);
+}
+
+.barra li a:hover{
+    color: rgb(41, 41, 238);
+}
+
+.contenedor{
+    position: relative;
+}
+
+input {
+    width: 300px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+    border: .5;
+    outline: none;
+    margin-left: 30px;
+}
+
+button {
+    background-color: aliceblue;
+    padding: 10px 15px;
+    position: absolute;
+    border: 1px solid black;
+    top: 0;
+    bottom: 0px;
+    right: 0;
+    margin: auto;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: black;
+}
+
+section{
+    margin-top: 50px;
+    margin-bottom: 10px;
+    margin-left: 170px;
+    margin-right: 170px;
+    background-color: rgb(236, 236, 236);
+}
+
+.loki-img{
+    width: 1180px;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+.loki-img:hover{
+    transform: scale(1.02);
+}
+
+.nov{
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+
+}
+
+.contenedor2{
+    display: inline-flex;
+    max-width: 1100px;
+}
+
+.card{
+    margin: 20px;
+    border-radius: 6;
+    overflow: hidden;
+    background: white;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+    margin-left: 25px;
+    margin-right: 0px;
+    cursor: default;
+    transition: all 400ms ease;
+}
+
+.card:hover{
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.8);
+    transform: translateY(-2%);
+}
+
+.img-1{
+    width: 550px;
+    height: 400px;
+}
+
+.img-2{
+    width: 550px;
+    height: 400px;
+}
+
+.contenido{
+    padding: 15px;
+    text-align: justify;
+}
+
+.contenido p{
+    line-height: 1;
+    color: rgb(49, 49, 49);
+    font-family: 'Gabarito', sans-serif;
+    font-size: 15px;
+}
+
+.contenido h3{
+    margin-bottom: 10px;
+    font-family: 'Gabarito', sans-serif;
+}
+
+.contenido a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 4px;
+    color: rgb(41, 41, 238);
+    border: 1px solid rgb(41, 41, 238);
+    transition: all 400ms ease;
+}
+
+.contenido a:hover{
+    background: rgb(41, 41, 238);
+    color: white;
+}
+
+footer{
+    background-color: white;
+    padding: 5px;
+    height: 85px;
+    align-items: center;
+    justify-content:center;
+    display: flex;
+}
+
+footer a{
+    text-decoration: none;
+    color: black;
+    font-weight:  bold;
+    font-family: 'Gabarito', sans-serif;
+}
