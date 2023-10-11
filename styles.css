@@ -180,6 +180,33 @@ section{
     color: white;
 }
 
+.galeria{
+    display: flex;
+    overflow-y: auto;
+    padding: 10px;
+}
+
+.card1 {
+    margin-right: 10px;
+    position: relative;
+}
+
+.card1 img{
+    width: 200px;
+    object-fit: cover;
+    height: 300px;
+}
+
+.cuerpo.card{
+    position: absolute;
+    bottom:0;
+}
+
+.card1 p{
+    font-family: 'Raleway', sans-serif;
+    text-align:start;
+}
+
 footer{
     background-color: white;
     padding: 5px;
